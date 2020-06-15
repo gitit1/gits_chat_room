@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css?family=Bubblegum+Sans");
+
+html,
+body,
+.App {
+  height: 100vh;
+  margin: 0;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.Registrer {
+  .Bubble,
+  .RegistrerBox {
+    position: absolute;
+    width: 80vh;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+  }
+  .Bubble {
+    font-size: 13vh;
+    padding: 0.5em 0 0.5em 0;
+    transform: translate(-50%, -90%);
+  }
+  .RegistrerBox {
+    font-size: 3vh;
+    border-radius: 8px;
+    padding: 1.5em 0 0.5em 0;
+    transform: translate(-50%, 60%);
+
+    span {
+      font-size: 2vh;
+      width: 100%;
+      display: inline-block;
+      color: rgb(238, 24, 24);
+    }
+
+    input {
+      width: 70%;
+      padding: 12px 20px;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+  }
+}
+.ChatRoom {
+  .Chat, .NewMessage{
+     padding: 5px;
+  }
+  .Chat {
+    top: 20%;
+    left: 0%;
+    margin: 0 auto;
+    width: 85vh;
+    height: 75vh;
+    font-size: 4vh;
+    overflow-y: scroll;
+    transform: translate(0%, 5%);
+    border: 2px solid #fff;
+    .ChatMsg {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.5vh;
+      width: 70%;
+      min-height: 6vh;
+      margin-right: 15px;
+      float: right;
+      margin-top: 8px;
+      text-align: left;
+      color: #fff;
+      border-radius: 10px;
+      padding: 4px 8px;
+    }
+    .MsgContent {
+      width: 200px;
+      overflow: hidden;
+      word-wrap: break-word;
+    }
+    .UserMsg {
+      margin-left: 15px;
+      margin-right: 0;
+      float: left;
+    }
+    .MsgHeader {
+      margin-top: 4px;
+      line-height: 24px;
+    }
+    .MsgDate {
+      color: #ccc;
+      left: 5px;
+    }
+    .MsgUser {
+      margin-left: 5px;
+      font-weight: 700;
+      color: #ddd;
+    }
+  }
+  .NewMessage {
+    border-radius: 8px;
+    margin: 0 auto;
+    width: 85vh;
+    height: 12vh;
+    transform: translate(0%, 60%);
+
+    .NewMessageForm {
+      font-size: 3vh;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      height: 10vh;
+
+      input {
+        width: 75%;
+        height: 70%;
+        margin-left: 4%;
+      }
+      .Btn{
+        width: 10%;
+        height: 60%;
+      }
+      div {
+        width: 20%;
+        height: 70%;
+        font-size: 2vh;
+        display: grid;
+        align-items: center;
+        text-align: center;
+        margin-top: 0;
+      }
+    }
+    .MsgError {
+      width: 100%;
+      color: rgb(238, 24, 24);
+      display: inline-block;
+      position: absolute;
+      margin: -6px 0 20px 4%;
+    }
+    .MsgWordsCounter {
+      float: right;
+      margin: -6px 3% 20px 0;
+    }
+  }
+
+
+}
+.box {
+  font-family: "Bubblegum Sans";
+  color: rgb(73, 73, 73);
+  background: #fff;
+  border-radius: 4%;
+}
+.Btn {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 8px 20px;
+  background-color: rgb(73, 73, 73);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+::-webkit-input-placeholder {
+  text-align: center;
+}
+.Disabled {
+  color: #ccc;
+  cursor: not-allowed;
+  opacity: 0.4;
+  pointer-events: none;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+@media (max-width: 850px) {
+  .Registrer {
+    .box {
+      width: 40vh;
+    }
+    .Bubble {
+      font-size: 8vh;
+    }
+    .RegistrerBox span {
+      font-size: 1.5vh;
+    }
+  }
+  .ChatRoom {
+    .Chat, .NewMessage{ width: 44vh; padding: 1px; }
+    .Chat {
+      font-size: 3vh;
+      height: 78vh;
+    }
+    .NewMessage {
+      .NewMessageForm {
+        input{
+          width: 60%;
+          // padding: 2px 12px;
+        }
+        .Btn{
+          width: 22%;
+          font-size: 2vh;
+          padding: 7px 12px;
+        }
+      }
+    }
+  }
+}
