@@ -1,13 +1,13 @@
 # git_chat_room
 
-##Based on this instructions:
+## Based on this instructions:
 
-###Goal
+### Goal
 
 Build a React based chat app.
 The app should contain two pages - a registration page and a chat page.
 
-###Registration
+### Registration
 In this page, the user will enter his username.
 
 **Username validation rules:_**
@@ -19,7 +19,7 @@ If the username is invalid, a proper message will be displayed.
 If the username is valid, the user will be able to click the "Next" button which will take them to
 the chat page.
 
-###Chat
+### Chat
 On this page, the user will be able to read and send messages.
 
 **Rules:_**
