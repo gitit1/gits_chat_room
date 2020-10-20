@@ -2,7 +2,7 @@
 
 This Mini Project was made as an Home Assignment to one of the companies I interviewed for.
 
-**git_chat_room.gititregev.com**
+**http://git_chat_room.gititregev.com**
 
 ## Based on this instructions:
 
