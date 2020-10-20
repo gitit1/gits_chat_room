@@ -10,7 +10,7 @@ The app should contain two pages - a registration page and a chat page.
 ### Registration
 In this page, the user will enter his username.
 
-**Username validation rules:_**
+**_Username validation rules:_**
 1. Length must be between 6-10 characters.
 2. Can only contain English letters and digits when:
 a. It must contain at least one uppercase character and one lowercase character.
@@ -22,7 +22,7 @@ the chat page.
 ### Chat
 On this page, the user will be able to read and send messages.
 
-**Rules:_**
+**_Rules:_**
 1. The structure of the messages will be as follows:
 [Posting time] - Username - Message content.
 2. Messages belonging to different users will appear in different colors.
