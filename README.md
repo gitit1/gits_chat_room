@@ -1,10 +1,8 @@
 # git_chat_room
 
-This Mini Project was made as an Home Assignment to one of the companies I interviewed for.
-
 **http://git_chat_room.gititregev.com**
 
-## Based on this instructions:
+## Based on those instructions:
 
 ### Goal
 
