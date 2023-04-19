@@ -1,6 +1,6 @@
 # git_chat_room
 
-**http://git_chat_room.gititregev.com**
+**http://git_chat_room.gititregev.info**
 
 ## Based on those instructions:
 

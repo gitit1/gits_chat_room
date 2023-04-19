@@ -12,7 +12,7 @@ const isLocalhost = Boolean(
       )
 );
 
-const wsUrl = isLocalhost ? 'ws://localhost:3001' : 'ws://git_chat_room.gititregev.com:3001';
+const wsUrl = isLocalhost ? 'ws://localhost:3001' : 'ws://git_chat_room.gititregev.info:3001';
 
 class ChatRoom extends Component {
     state = {
