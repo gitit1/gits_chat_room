@@ -2,7 +2,7 @@
 
 **http://git_chat_room.gititregev.info**
 
-## Based on those instructions:
+## Based on the folllowing instructions:
 
 ### Goal
 
